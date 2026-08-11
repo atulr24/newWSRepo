@@ -1,0 +1,203 @@
+{
+ "entityType": "rule",
+ "category": "ruleSet",
+ "data": {
+  "createdAt": "2026-08-10T09:00:10.256Z",
+  "updatedAt": "2026-08-11T05:17:54.098695Z",
+  "isDeleted": false,
+  "testedAt": "2026-08-11T05:17:36.349Z",
+  "publishedAt": "2026-08-11T05:17:42.892Z",
+  "entityId": "10da73e3-e954-4aa9-8b66-6418741d9c35",
+  "version": "draft",
+  "name": "rs123",
+  "commitId": "commit-608ae900-a0c9-4dbe-ba5f-9d040652df04",
+  "status": "draft",
+  "lastVersion": "0.20",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Forked from 0.20",
+   "timeStamp": "2026-08-11T05:17:54.098398428Z"
+  },
+  "customInput": {
+   "Age": {
+ "name": "Age",
+ "dataType": "numeric",
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "attribute": "",
+ "sourceType": "",
+ "executedValue": 20,
+ "config": {
+  
+ },
+ "value": "",
+ "next": "",
+ "previous": "",
+ "schemaId": ""
+},
+   "Date": {
+ "name": "Date",
+ "dataType": "date",
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "attribute": "",
+ "sourceType": "",
+ "executedValue": "2026-08-07",
+ "config": {
+  
+ },
+ "value": "",
+ "next": "",
+ "previous": "",
+ "schemaId": ""
+},
+   "List": {
+ "name": "List",
+ "dataType": "list",
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "attribute": "",
+ "sourceType": "",
+ "executedValue": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "config": {
+  
+ },
+ "value": "",
+ "next": "",
+ "previous": "",
+ "schemaId": ""
+},
+   "Name": {
+ "name": "Name",
+ "dataType": "string",
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "attribute": "",
+ "sourceType": "",
+ "executedValue": "Atul",
+ "config": {
+  
+ },
+ "value": "",
+ "next": "",
+ "previous": "",
+ "schemaId": ""
+},
+   "bool": {
+ "name": "bool",
+ "dataType": "boolean",
+ "isOptional": false,
+ "isNullable": false,
+ "isCaseSensitive": false,
+ "attribute": "",
+ "sourceType": "",
+ "executedValue": "",
+ "config": {
+  
+ },
+ "value": "",
+ "next": "",
+ "previous": "",
+ "schemaId": ""
+}
+  },
+  "ruleChain": {
+   "9fc18b6c-4c44-4917-a25e-ebe022cea3f1": {
+ "prevRuleId": "",
+ "nextRuleId": "",
+ "isEnabled": true
+}
+  },
+  "decisionTable": {
+   "rows": null,
+   "properties": null,
+   "results": null,
+   "firstRow": "",
+   "firstProperty": "",
+   "firstResult": "",
+   "firstAggOutputData": ""
+  },
+  "action": {
+   "then": {
+    "outputData": null,
+    "actionNode": null,
+    "firstOutputData": "",
+    "firstActionNode": ""
+   },
+   "else": {
+    "outputData": null,
+    "actionNode": null,
+    "firstOutputData": "",
+    "firstActionNode": ""
+   }
+  },
+  "conditions": {
+   "nodes": null,
+   "startNode": ""
+  },
+  "firstCustomInput": "",
+  "firstRuleChain": "9fc18b6c-4c44-4917-a25e-ebe022cea3f1",
+  "ruleSetPolicy": "first",
+  "description": "",
+  "policy": "",
+  "comment": "",
+  "type": "ruleSet",
+  "dataSetId": null,
+  "ruleSet": [
+   "9fc18b6c-4c44-4917-a25e-ebe022cea3f1"
+  ],
+  "settings": {
+   "startAt": "0001-01-01T00:00:00Z",
+   "endAt": "0001-01-01T00:00:00Z",
+   "event": null,
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "auditIO": false,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": "d"
+    },
+    "CacheKeys": ""
+   },
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "us",
+   "timeout": 0,
+   "timeoutAsync": 0,
+   "timeoutCron": 0,
+   "styles": null
+  },
+  "isDemo": false,
+  "warnings": [],
+  "schemaVersion": "0.1.1"
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-08-11T05:17:54.101325Z",
+   "updatedAt": "2026-08-11T05:17:54.101325Z",
+   "entityCommitId": "commit-608ae900-a0c9-4dbe-ba5f-9d040652df04",
+   "entityType": "rule",
+   "entityId": "10da73e3-e954-4aa9-8b66-6418741d9c35",
+   "entityVersion": "draft",
+   "entityNodeId": "9fc18b6c-4c44-4917-a25e-ebe022cea3f1",
+   "dependencyType": "rule",
+   "dependencyId": "9fc18b6c-4c44-4917-a25e-ebe022cea3f1",
+   "dependencyVersion": "0.10"
+  }
+ ]
+}

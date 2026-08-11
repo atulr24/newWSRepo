@@ -1,0 +1,24 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2026-08-10T08:41:53.629Z",
+  "updatedAt": "2026-08-10T08:41:53.629Z",
+  "isDeleted": false,
+  "entityId": "1bed983e-c83e-4940-b5ef-e4fc32876e9d",
+  "name": "Namess",
+  "moduleId": "1c757fc3-2271-4918-bc31-f1c4611e9d7d",
+  "dataType": "string",
+  "usageType": "optional",
+  "options": [
+   {
+    "value": "Aul"
+   },
+   {
+    "value": "ASD"
+   },
+   {
+    "value": "ASD"
+   }
+  ]
+ }
+}

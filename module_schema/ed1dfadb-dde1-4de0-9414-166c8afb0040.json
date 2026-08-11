@@ -1,0 +1,23 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2026-08-10T08:41:37.315Z",
+  "updatedAt": "2026-08-10T08:41:37.315Z",
+  "isDeleted": false,
+  "entityId": "ed1dfadb-dde1-4de0-9414-166c8afb0040",
+  "name": "names",
+  "moduleId": "1c757fc3-2271-4918-bc31-f1c4611e9d7d",
+  "dataType": "list",
+  "usageType": "optional",
+  "options": [
+   {
+    "value": [
+     "Atul",
+     "Raizda",
+     "SUbahnshu",
+     "Satya"
+    ]
+   }
+  ]
+ }
+}
