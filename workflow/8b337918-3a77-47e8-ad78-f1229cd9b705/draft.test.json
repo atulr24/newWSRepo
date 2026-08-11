@@ -1,0 +1,29 @@
+{
+ "entityType": "testcase",
+ "category": "workflow",
+ "isList": true,
+ "dataList": [
+  {
+   "createdAt": "2026-08-11T12:57:57.225Z",
+   "updatedAt": "2026-08-11T12:57:57.225Z",
+   "isDeleted": false,
+   "entityId": "5a8642c0-ffa6-4067-ad6e-34e95a16ea5c",
+   "name": "Test 1",
+   "input": {
+    "ci": {
+     "Age": {
+ "value": 29
+},
+     "Name": {
+ "value": "Atul"
+}
+    }
+   },
+   "output": {
+    "output": {
+ "key_0": "Test1"
+}
+   }
+  }
+ ]
+}
