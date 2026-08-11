@@ -3,26 +3,20 @@
  "category": "decisionTable",
  "data": {
   "createdAt": "2026-08-11T10:10:37.867Z",
-  "updatedAt": "2026-08-11T10:11:42.79466Z",
+  "updatedAt": "2026-08-11T10:16:36.4727Z",
   "isDeleted": false,
   "testedAt": "2026-08-11T10:11:07.382Z",
   "publishedAt": "2026-08-11T10:11:42.788Z",
   "entityId": "bca0a4e0-0dae-4ad9-a9ec-a2fce67b07e6",
-  "version": "0.10",
+  "version": "draft",
   "name": "Test",
-  "commitId": "commit-6711b061-fe0f-4e31-be6e-0244919c9366",
-  "status": "published",
-  "lastVersion": "draft",
-  "isLive": true,
+  "commitId": "commit-eecd44df-45c1-4447-ab80-4cef745e54e3",
+  "status": "draft",
+  "lastVersion": "0.10",
+  "isLive": false,
   "commitInfo": {
-   "title": "Created at 2026-08-11 10:10:37",
-   "approvers": [
-    {
-     "hasApproved": true,
-     "createdAt": "2026-08-11T10:11:19.909Z"
-    }
-   ],
-   "timeStamp": "2026-08-11T10:11:19.909Z"
+   "title": "Forked from 0.10",
+   "timeStamp": "2026-08-11T10:16:32.026792416Z"
   },
   "customInput": {
    "Age2": {
@@ -34,7 +28,9 @@
  "attribute": "",
  "sourceType": "",
  "executedValue": 29,
- "config": null,
+ "config": {
+  
+ },
  "value": "",
  "next": "",
  "previous": "",
@@ -44,8 +40,15 @@
   "ruleChain": null,
   "decisionTable": {
    "rows": {
-    "rule_01": {
+    "g_eJhpZh": {
  "nextId": "",
+ "prevId": "rule_01",
+ "firstOutputData": "",
+ "isEnabled": true,
+ "annotation": ""
+},
+    "rule_01": {
+ "nextId": "g_eJhpZh",
  "prevId": "",
  "firstOutputData": "",
  "isEnabled": true,
@@ -87,6 +90,42 @@
   },
   "conditions": {
    "nodes": {
+    "c_fXsboC": {
+ "value": null,
+ "sourceType": "",
+ "name": "Any",
+ "operator": "any",
+ "dataType": "numeric",
+ "nodeType": "condition",
+ "attribute": "",
+ "query": "",
+ "parent": "g_eJhpZh",
+ "children": null,
+ "leftNode": [
+  "rule_03"
+ ],
+ "rightNode": [],
+ "siblingIndex": 1,
+ "returnType": ""
+},
+    "g_eJhpZh": {
+ "value": null,
+ "sourceType": "",
+ "name": "",
+ "operator": "and",
+ "dataType": "",
+ "nodeType": "group",
+ "attribute": "",
+ "query": "",
+ "parent": "",
+ "children": [
+  "c_fXsboC"
+ ],
+ "leftNode": null,
+ "rightNode": null,
+ "siblingIndex": 1,
+ "returnType": ""
+},
     "rule_01": {
  "value": null,
  "sourceType": "",
@@ -165,7 +204,7 @@
     "Enabled": false,
     "Duration": {
      "Value": 0,
-     "Unit": ""
+     "Unit": "d"
     },
     "CacheKeys": ""
    },
